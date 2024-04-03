@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*----------------Body-------------*/
+
+body{
+    background-color: goldenrod;
+}
+
+#container{
+    width: 75%;
+    margin:auto;
+}
+  
+/*----------------Header-------------*/
+
+h2 {
+    font-size: 1.7em;
+    width: 100%;
+    padding: 0.5em 0;
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+
+header figure img{
+    width: 100%;
+    vertical-align: top;
+}
+
+/*-----------------Main----------------*/
+
+main{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    padding : 3em 1em;
+}
+article{
+    width: 60%;
+    padding: 1em;
+}
+
+h1{
+    font-size: 1.5em;
+    color: goldenrod
+}
+
+article p{
+    padding: 2em 0;
+   
+    text-align: justify;
+    color: black;
+}
+
+/*------------Nav-------------*/
+
+nav{
+    width: 20%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    align-items: center;
+    height:200px;
+
+
+}
+
+a{
+    
+    padding: 0.4em 0;
+
+    text-decoration: underline;
+    color: white;
+    
+}
+
+h2,li,h1,article,figcaption,footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*--------------Aside------------*/
+
+aside figure img {
+    width: 70%;
+    border: 3px solid white;  
+}
+
+h3{
+  
+    text-align: center;
+    color: white;
+}
+figcaption p{
+    font-size: smaller;
+    text-align: justify;
+    padding: 2em 0;
+  
+    color: white
+}
+
+aside{
+    width: 20%;
+    text-align: center;
+}
+aside figure{
+    padding: 2em 1em;
+    background-color: blue;
+}
+
+/*------------footer------------*/
+
+footer{
+    background-color: blue;
+    text-align: center;
+    padding:0.5em 0 
+}
+
+small{
+    width: 100%;
+
+    font-size: small;
+    color: white;
+}
